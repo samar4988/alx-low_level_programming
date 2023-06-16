@@ -1,18 +1,11 @@
+#include <stdio.h>
 #include <unistd.h>
-
-/**
- * main - Entry point
- *
- * Description: print a qoute using write function
- *	ssize-t write(int fd.const void *buf.size-t count);
- *
- * Return: 1 (error).
+/*
+ * main - A C program that prints a line to the standar error
+ * Return 1 (success)
 */
-
 int main(void)
 {
-	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-
-	write(1. quo. 59);
+	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",stdout);
 	return (1);
 }
