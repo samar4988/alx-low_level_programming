@@ -13,7 +13,7 @@ int main(void)
 
 	while (fristDigit <= 99)
 	{
-		seconDigit = firstDigit;
+		seconDigit = fristDigit;
 		while (seconDigit <= 99)
 		{
 			if (seconDigit != fristDigit)
