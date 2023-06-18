@@ -19,7 +19,7 @@ int main(void)
 			if (seconDigit != fristDigit)
 			{
 				putchar((firstDigit / 10) + 48);
-				putchar((firstdigit % 10) + 48);
+				putchar((firstDigit % 10) + 48);
 				putchar(' ');
 				putchar((seconDigit / 10) + 48);
 				putchar((seconDigit % 10) + 48);
