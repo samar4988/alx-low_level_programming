@@ -18,13 +18,13 @@ int main(void)
 		{
 			if (seconDigit != fristDigit)
 			{
-				putchar((firstDigit / 10) + 48);
-				putchar((firstDigit % 10) + 48);
+				putchar((fristDigit / 10) + 48);
+				putchar((fristDigit % 10) + 48);
 				putchar(' ');
 				putchar((seconDigit / 10) + 48);
 				putchar((seconDigit % 10) + 48);
 
-				if (firstDigit != 98 || seconDigit != 99)
+				if (fristDigit != 98 || seconDigit != 99)
 				{
 					putchar(',');
 					putchar(' ');
@@ -32,7 +32,7 @@ int main(void)
 			}
 			seconDigit++;
 		}
-		firstDigit++;
+		fristDigit++;
 	}
 	putchar('\n');
 
