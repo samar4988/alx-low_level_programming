@@ -3,20 +3,29 @@
 /**
  * print_square - print a square using the character #
  *
- * @size: is the size of the square
+ * @size: the number of squares/number of times
  *
  * Return: Always 0 (success)
 */
 
 void print_square(int size)
 {
-	int row, column;
+	int x, y;
 
-	for (row = 1; row <= size; row++)
+	if (size <= 0)
 	{
-		for (column = 1; column <= size; column++)
-				_putchar('#');
-			_putchar('\n');
+	_putchar('\n');
+	}
+	else
+	{
+	for (x = 0; x < size; x++)
+	{
+	for (y = 0; y < size; y++)
+	{
+	_putchar('#');
+	}
+	_putchar('\n');
+	}
 	}
 
 }
