@@ -1,33 +1,22 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_square - print a square
+ * print_square - print a square using the character #
  *
- * @size: paramoter
+ * @size: is the size of the square
  *
  * Return: Always 0 (success)
 */
 
 void print_square(int size)
 {
-	int ine1, ine2;
+	int row, column;
 
-	if (size > 0)
+	for (row = 1; row <= size; row++)
 	{
-
-		for (ine1 = 0; ine1 < size; ine1++)
-		{
-			for (ine2 = 0; ine2 < (size - 1); ine2++)
-			{
+		for (column = 1; column <= size; column++)
 				putchar('#');
-			}
-			putchar('#');
 			putchar('\n');
-		}
 	}
-	else
-	}
-		putchar('\n');
-	}
+
 }
