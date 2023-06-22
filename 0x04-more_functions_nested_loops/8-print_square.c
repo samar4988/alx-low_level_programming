@@ -20,9 +20,9 @@ void print_square(int size)
 		{
 			for (ine2 = 0; ine2 < (size - 1); ine2++)
 			{
-				putchar('*');
+				putchar('#');
 			}
-			putchar('*');
+			putchar('#');
 			putchar('\n');
 		}
 	}
